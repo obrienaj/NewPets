@@ -1,11 +1,10 @@
 public class PetsTester{
     public static void main(String[] args){
 
-       
-
         Cat c = new Cat("Scout");
         Dog d = new Dog("Spot"); 
         Iguana i = new Iguana("Sclaey"); 
+        TalkingCat tc = new TalkingCat("Sophie");
 
         Cat sammy=new Cat("Sammy"); 
         Dog hans = new Dog("Hans"); 
@@ -21,7 +20,6 @@ public class PetsTester{
         alliePets[0]=sammy; 
         alliePets[1]=hans; 
         PetOwner allie= new PetOwner("Allie", alliePets); 
-
 
         c.talk(); 
         d.talk(); 
