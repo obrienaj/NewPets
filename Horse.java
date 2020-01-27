@@ -1,8 +1,11 @@
 public class Horse extends Pet{
+    
+    private boolean hasBeenRidden; 
+    private boolean HasBeenBrushed;
+        
     public Horse(String name){
         super(name); 
-        private boolean hasBeenRidden; 
-        private boolean HasBeenBrushed; 
+
     }
     public void brushed(){
         this.hasBeenBrushed =true; 
