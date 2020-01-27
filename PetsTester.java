@@ -53,13 +53,5 @@ public class PetsTester{
         allie.talk(); 
 
 
-
     }
 }
-
-
-// Cat sammy = new Cat(true, true, true); 
-
-// sammy.isHappy(){
-//     system.out.println("MEOW!:)")
-// }
