@@ -7,11 +7,15 @@ public class PetsTester{
         TalkingCat tc = new TalkingCat("Sophie");
         Cat sammy=new Cat("Sammy"); 
         Dog hans = new Dog("Hans"); 
+        Horse h= new Horse("Princess"); 
+        Yorkie y= new Yorkie("Gov'nor"); 
 
-        Pet pets[] = new Pet[3];
+        Pet pets[] = new Pet[5];
         pets[0] = c;
         pets[1] = d;
         pets[2] = i;
+        pets[3] = h; 
+        pets[4]= y; 
 
         PetOwner po = new PetOwner("Cassidy", pets);
 
@@ -24,6 +28,8 @@ public class PetsTester{
         d.talk(); 
         i.talk();
         po.talk(); 
+        h.talk(); 
+        y.talk(); 
 
         d.feed();
         d.walk();
