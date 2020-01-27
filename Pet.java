@@ -5,7 +5,7 @@ public abstract class Pet{
     protected boolean hasBeenPetted;
     protected boolean hasBeenPettedX10; 
     protected boolean hasBeenRidden; 
-    private boolean HasBeenBrushed;
+    protected boolean hasBeenBrushed;
     protected int pats; 
       
 
