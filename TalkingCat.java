@@ -1,8 +1,12 @@
+import java.util.Random;
+
 public class TalkingCat extends Pet {
 
     public TalkingCat(String name){
         super(name);
     }
+
+    Random rand = new Random();
 
     public boolean isHappy(){
         return hasBeenFed && !hasBeenWalked && !hasBeenPetted;
@@ -14,7 +18,7 @@ public class TalkingCat extends Pet {
     }
 
     private String compliment(){
-        int n = random.nextInt(5);
+        int n = rand.nextInt(5);
         String[] comp = new String[5];
         
         comp[0] = "You look lovely today.";
@@ -27,7 +31,7 @@ public class TalkingCat extends Pet {
     }
 
     private String insult(){
-        int n = random.nextInt(5);
+        int n = rand.nextInt(5);
         String[] ins = new String[5];
         
         ins[0] = "You are the scum of the earth.";
