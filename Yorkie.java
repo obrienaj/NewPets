@@ -9,6 +9,8 @@ public class Yorkie extends Pet{
     }
 
     public void talk(){
+        System.out.println(name + ", what's the tea, gov'ner?");
         System.out.println( isHappy() ? "yip woof :)" : "yip woof :(");
+        System.out.println();
     }
 }

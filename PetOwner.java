@@ -18,7 +18,9 @@ public class PetOwner {
     }
 
     public void talk() {
+        System.out.println(name + ", how's it going?");
         System.out.println(isHappy() ? "Yeeeeeet:)" : "sad boi hours:(");
+        System.out.println();
     }
 
     public void feedAllPets(){

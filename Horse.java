@@ -1,5 +1,5 @@
 public class Horse extends Pet{
-    
+
         
     public Horse(String name){
         super(name); 
@@ -10,6 +10,8 @@ public class Horse extends Pet{
     }
 
     public void talk(){
+        System.out.println("Hay " + name + ", how are you today?");
         System.out.println( isHappy() ? "Neighhh:)" : "Hey :(");
+        System.out.println();
     }
 }

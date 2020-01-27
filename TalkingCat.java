@@ -15,6 +15,7 @@ public class TalkingCat extends Pet {
     public void talk(){
         System.out.println(name + ", how are you today?");
         System.out.println(isHappy() ? compliment() : insult());
+        System.out.println();
     }
 
     private String compliment(){

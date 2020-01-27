@@ -11,5 +11,6 @@ public class Dog extends Pet{
     public void talk(){
         System.out.println(name + ", how are you today?");
         System.out.println( isHappy() ? "woof :)" : "woof :(");
+        System.out.println();
     }
 }

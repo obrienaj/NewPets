@@ -50,6 +50,7 @@ public class PetsTester{
         sammy.talk();
         hans.talk(); 
         allie.talk(); 
+        tc.talk();
 
 
     }
