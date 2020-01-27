@@ -9,6 +9,7 @@ public class Cat extends Pet {
     }
 
     public void talk(){
+        System.out.println(name + ", how are you today?");
         System.out.println(isHappy() ? "meow" : "hiss");
     }
 }

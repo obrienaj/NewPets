@@ -9,11 +9,12 @@ public class TalkingCat extends Pet {
     }
 
     public void talk(){
+        System.out.println(name + ", how are you today?");
         System.out.println(isHappy() ? compliment() : insult());
     }
 
     private String compliment(){
-        int n = // random int from 0 to 4
+        int n = random.nextInt(5);
         String[] comp = new String[5];
         
         comp[0] = "You look lovely today.";
@@ -26,7 +27,7 @@ public class TalkingCat extends Pet {
     }
 
     private String insult(){
-        int n = // random int from 0 to 4
+        int n = random.nextInt(5);
         String[] ins = new String[5];
         
         ins[0] = "You are the scum of the earth.";
