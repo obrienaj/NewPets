@@ -60,7 +60,11 @@ public class PetOwner {
     public void careHorse(){
         for( int h=0; h<pets.length; h++){
             if(pets[h] instanceof Horse){
-                pets[h].
+                pets[h].ridden(); 
+                pets[h].brushed(); 
+                pets[h].pet();
+                pets[h].walk();
+                pets[h].feed();   
             }
         }
     }
