@@ -5,7 +5,6 @@ public class PetsTester{
         Dog d = new Dog("Spot"); 
         Iguana i = new Iguana("Sclaey"); 
         TalkingCat tc = new TalkingCat("Sophie");
-
         Cat sammy=new Cat("Sammy"); 
         Dog hans = new Dog("Hans"); 
 

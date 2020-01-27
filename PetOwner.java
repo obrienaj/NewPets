@@ -28,13 +28,13 @@ public class PetOwner {
     }
     public void walkNeedyPets(){
         for(int k=0; k<pets.length; k++){
-        if (pets[k] instanceof Dog){
-            pets[k].walk(); 
+            if (pets[k] instanceof Dog){
+                pets[k].walk(); 
+            }
+            if(pets[k] instanceof Iguana){
+                pets[k].walk(); 
+            }
         }
-        if(pets[k] instanceof Iguana){
-            pets[k].walk(); 
-        }
-    }
     }
 
     public void petNeedyPets(){
