@@ -34,6 +34,12 @@ public class PetOwner {
             if(pets[k] instanceof Iguana){
                 pets[k].walk(); 
             }
+            if(pets[k] instanceof Horse){
+                pets[k].walk(); 
+            }
+            if(pets[k] instanceof Yorkie){
+                pets[k].walk(); 
+            }
         }
     }
 
@@ -47,6 +53,14 @@ public class PetOwner {
             }
             if(pets[r] instanceof Horse){
                 pets[r].pet(); 
+            }
+        }
+    }
+    
+    public void careHorse(){
+        for( int h=0; h<pets.length; h++){
+            if(pets[h] instanceof Horse){
+                pets[h].
             }
         }
     }
