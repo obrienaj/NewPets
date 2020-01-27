@@ -4,6 +4,8 @@ public abstract class Pet{
     protected boolean hasBeenWalked;
     protected boolean hasBeenPetted;
     protected boolean hasBeenPettedX10; 
+    protected boolean hasBeenRidden; 
+    private boolean HasBeenBrushed;
     protected int pats; 
       
 
@@ -25,6 +27,12 @@ public abstract class Pet{
     }
     public void pettedX10(){
         this.hasBeenPettedX10 = true; 
+    }
+    public void brushed(){
+        this.hasBeenBrushed =true; 
+    }
+    public void ridden(){
+        this.hasBeenRidden= true; 
     }
     public void numberOfPets(int pats){
         if(pats<10){
