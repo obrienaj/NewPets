@@ -1,4 +1,4 @@
-public class Horse extendes Pet{
+public class Horse extends Pet{
     public Horse(String name){
         super(name); 
         protected boolean hasBeenRidden; 
