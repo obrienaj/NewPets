@@ -42,6 +42,12 @@ public class PetOwner {
             if(pets[r] instanceof Dog){
                 pets[r].pet(); 
             }
+            if(pets[r] instanceof Yorkie){
+                pets[r].numberOfPets(10); 
+            }
+            if(pets[r] instanceof Horse){
+                pets[r].pet(); 
+            }
         }
     }
 }
